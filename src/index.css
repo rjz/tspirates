@@ -1,0 +1,9 @@
+body {
+  background-color: #231f20;
+  font-family: consolas, 'courier new', monospace;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

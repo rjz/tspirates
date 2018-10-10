@@ -1,0 +1,41 @@
+.Game {
+  background: url('./bg.svg') top center no-repeat #6f917c;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.Message {
+  position: absolute;
+  bottom: 20px;
+  left: 120px;
+  right: 20px;
+  color: #231f20;
+  font-size: 24pt;
+  padding: 40px;
+  text-align: left;
+  animation: 0.3s linear reverse countIn;
+}
+
+.Sprite {
+  pointer-events: none;
+}
+
+@keyframes countIn {
+  0% {
+    font-size: 24pt;
+  }
+
+  30% {
+    font-size: 36pt;
+  }
+
+  90% {
+    font-size: 18pt;
+  }
+
+  100% {
+    font-size: 24pt;
+  }
+}
